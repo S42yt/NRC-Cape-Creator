@@ -1,6 +1,28 @@
-NRC Cape Creator
-This project is a simple web app that lets you design your own Minecraft‑style cape and Elytra textures. Instead of editing images manually, you can load a template in the browser, drop in your artwork, choose colors or gradients, and instantly see the result.
+# NRC Cape Creator 🧵
 
-The app uses the HTML5 canvas to layer your images on top of a cape template. You can color the base, add front and back designs, and even mask Elytra wings so they fit perfectly. When you’re happy with the look, you just click Download Cape and get a ready‑to‑use PNG file.
+Designing Minecraft capes doesn’t have to be complicated. **NRC Cape Creator** is a browser‑based playground where you can mix colors, drop in images, and shape Elytra wings — all without touching Photoshop or external editors.
 
-It’s meant to be lightweight: open the page, play with the controls, and create a custom cape in minutes — no extra software needed.
+---
+
+## How you use it
+
+1. **Open `index.html`** — no install, no setup.  
+2. **Upload images** for the front, back, or Elytra.  
+3. **Pick colors** or switch on gradient mode.  
+4. **Preview** your cape in real time.  
+5. **Download** the PNG and drop it into your game.  
+
+---
+
+## What’s inside
+
+- A simple HTML/CSS/JS interface  
+- Canvas rendering for layering and masking  
+- Gradient options with vertical, horizontal, and diagonal directions  
+- Reset button to start fresh anytime  
+
+---
+
+## The vibe
+
+Think of it as a **cape workshop in your browser**: quick, playful, and lightweight. You don’t need design tools — just curiosity and a few clicks.
