@@ -24,13 +24,13 @@
     <input type="file" id="elytraImageInput" accept="image/*"><br>
 
     <label>Cape color:</label><br>
-    <input type="color" id="colorPicker" value="#00DDFB"><br>
+    <input type="color" id="colorPicker" value="#002aff"><br>
 
     <label><input type="checkbox" id="enableGradient"> Enable gradient</label><br>
 
     <div id="gradientControls" style="display:none; margin-left:20px;">
         <label>1. Gradient color:</label><br>
-        <input type="color" id="gradColor1" value="#00DDFB"><br>
+        <input type="color" id="gradColor1" value="#002aff"><br>
 
         <label>2. Gradient color:</label><br>
         <input type="color" id="gradColor2" value="#0000ff"><br>
@@ -235,11 +235,11 @@ document.getElementById("resetBtn").addEventListener("click", () => {
     document.getElementById("backImageInput").value = "";
     document.getElementById("elytraImageInput").value = "";
 
-    document.getElementById("colorPicker").value = "#00DDFB";
+    document.getElementById("colorPicker").value = "#002aff";
     document.getElementById("enableGradient").checked = false;
     document.getElementById("gradientControls").style.display = "none";
-    document.getElementById("gradColor1").value = "#00DDFB";
-    document.getElementById("gradColor2").value = "#0000ff";
+    document.getElementById("gradColor1").value = "#002aff";
+    document.getElementById("gradColor2").value = "#ff0000";
     document.getElementById("gradDirection").value = "vertical";
 
     drawCape();
@@ -248,4 +248,5 @@ document.getElementById("resetBtn").addEventListener("click", () => {
 
 </body>
 </html>
+
 
